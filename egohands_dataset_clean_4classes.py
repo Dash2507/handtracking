@@ -240,5 +240,5 @@ def download_egohands_dataset(dataset_url, dataset_path):
 EGOHANDS_DATASET_URL = "http://vision.soic.indiana.edu/egohands_files/egohands_data.zip"
 EGO_HANDS_FILE = "egohands_data.zip"
 
-# download_egohands_dataset(EGOHANDS_DATASET_URL, EGO_HANDS_FILE)
-extract_folder(EGO_HANDS_FILE)
+download_egohands_dataset(EGOHANDS_DATASET_URL, EGO_HANDS_FILE)
+# extract_folder(EGO_HANDS_FILE)
